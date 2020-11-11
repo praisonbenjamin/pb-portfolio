@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+}
+
+/*Mobile first*/
+header{
+    background: brown;
+    color: #ffffff;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+header h2{
+    padding-top: 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+header nav ul li a{
+    margin: 0 30px 20px 0;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+header nav ul li: last-child a{
+    padding-right: 0;
+}
+
+main{
+    width: 80%;
+    background-color: blanchedalmond;
+    justify-content: center;
+    margin: auto;
+}
+
+.potrait{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid whitesmoke;
+    display: block;
+}
+
+.group{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.item{
+    flex: 1;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h3{
+    text-align: center;
+}
+
+.single-item{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contactme{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactme ul{
+    list-style: none;
+    
+    
+}
+
+.contactme ul li{
+    padding-top: 10px;
+}
+
+.contactme ul a{
+    text-decoration: none;
+    
+}
+
+footer{ /*style footer*/
+  text-align: center;
+  background: #240C04;
+  color: aliceblue;
+  padding: 5%
+}
+
+/*Desktop*/
+@media all and (min-width: 800px) {
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 30px:
+    }
+    header h1 {
+        font-size: 52px;
+        padding: 0 0 0 30px;
+        
+    }
+    header h2{
+        text-align: left;
+        padding: 0 0 0 30px;
+    }
+
+    header nav{
+        margin-top: 70px;
+    }
+    .group{
+        flex-direction: row;
+    }
+    .potrait{
+        width: 80%;
+        padding-bottom: 20px;
+    }
+
+    form{
+        width: 45%;
+    }
+
+
+}
