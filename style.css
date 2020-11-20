@@ -6,6 +6,8 @@ body {
 header {
     background: brown;
     color: #ffffff;
+    width: 80%;
+    margin: auto;
 }
 
 h1{
@@ -145,7 +147,7 @@ footer{ /*style footer*/
     header{
         display: flex;
         justify-content: space-evenly;
-        padding: 0 30px;
+       
     }
     header h1 {
         font-size: 52px;
