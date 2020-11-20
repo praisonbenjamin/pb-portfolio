@@ -119,6 +119,14 @@ form{
     
 }
 
+.projects ul{
+    list-style: none;
+    text-align: left;
+}
+
+.projects ul li {
+    text-align: left;
+}
 footer{ /*style footer*/
   text-align: center;
   background: #240C04;
@@ -129,6 +137,8 @@ footer{ /*style footer*/
 .insta{
     width:2%;
 }
+
+
 
 /*Desktop*/
 @media all and (min-width: 800px) {
