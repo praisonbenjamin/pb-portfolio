@@ -50,13 +50,22 @@ main{
     margin: auto;
 }
 
-img{
+.potrait{
     width: 50%;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     border: 10px solid whitesmoke;
     display: block;
+}
+
+.screenshot{
+        width: 50%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 10px solid whitesmoke;
+        display: block;
 }
 
 .group{
